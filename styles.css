@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: rgb(238, 238, 238);
+  --color2: rgb(221, 221, 221);
+  --color3: rgb(0, 0, 0);
+  --color4: rgb(255, 140, 0);
+  --color5: rgb(241, 196, 15);
+
+  --poppins: 'Poppins', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+}
