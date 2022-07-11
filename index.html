@@ -11,6 +11,119 @@
   <title>Product landing page</title>
 </head>
 <body>
-  
+  <header class="header">
+    <figure class="header__logo--container">
+        <img class="header__logo" 
+        src="./images/product-landing-page-logo.png" 
+        alt="logo image" 
+        id="header-img">
+    </figure>
+
+    <nav class="header__nav">
+      <div class="header__nav__links">
+        <a class="header__nav__item" href="#features">Features</a>
+        <a class="header__nav__item" href="#how-it-works">How It Works</a>
+        <a class="header__nav__item" href="#pricing">Pricing</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2 class="hero__title">Handcrafted, home-made masterpieces</h2>
+
+    <form class="hero__form">
+      <input class="hero__input" id="email" type="email" placeholder="Enter your email address" required>
+      <input class="hero__btn" id="submit" type="submit" value="Get Stared">
+    </form>
+  </section>
+
+  <div class="sections__container">
+    <section class="features" id="features">
+      <div class="features__items">
+        <div class="features__icons">
+          <img class="features__icons--size" src="./images/fire.svg" alt="fire icon">
+        </div>
+        <div class="features__texts">
+          <h2 class="features__texts--title">Premium Materials</h2>
+          <p class="features__texts--paragraph">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+      </div>
+
+      <div class="features__items">
+        <div class="features__icons">
+          <img class="features__icons--size" src="./images/truck.svg" alt="truck icon">
+        </div>
+        <div class="features__texts">
+          <h2 class="features__texts--title">Fast Shipping</h2>
+          <p class="features__texts--paragraph">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+
+      <div class="features__items">
+        <div class="features__icons">
+          <img class="features__icons--size" src="./images/battery-full.svg" alt="battery-full icon">
+        </div>
+        <div class="features__texts">
+          <h2 class="features__texts--title">Quality Assurance</h2>
+          <p class="features__texts--paragraph">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <iframe class="how-it-works__video" id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="pricing__product">
+        <div class="pricing__title">Tenor Trombone</div>
+        <h2 class="pricing__price">$600</h2>
+        <ol class="pricing__list">
+          <li class="pricing__list--items">Lorem ipsum.</li>
+          <li class="pricing__list--items">Lorem ipsum.</li>
+          <li class="pricing__list--items">Lorem ipsum dolor.</li>
+          <li class="pricing__list--items">Lorem ipsum.</li>
+        </ol>
+        <button class="pricing__btn">Select</button>
+      </div>
+
+      <div class="pricing__product">
+        <div class="pricing__title">Bass Trombone</div>
+        <h2 class="pricing__price">$900</h2>
+        <ol class="pricing__list">
+          <li class="pricing__list--items">Lorem ipsum.</li>
+          <li class="pricing__list--items">Lorem ipsum.</li>
+          <li class="pricing__list--items">Lorem ipsum dolor.</li>
+          <li class="pricing__list--items">Lorem ipsum.</li>
+        </ol>
+        <button class="pricing__btn">Select</button>
+      </div>
+
+      <div class="pricing__product">
+        <div class="pricing__title">Valve Trombone</div>
+        <h2 class="pricing__price">$1200</h2>
+        <ol class="pricing__list">
+          <li class="pricing__list--items">Plays similar to a Trumpet</li>
+          <li class="pricing__list--items">Great for Jazz Bands</li>
+          <li class="pricing__list--items">Lorem ipsum dolor.</li>
+          <li class="pricing__list--items">Lorem ipsum.</li>
+        </ol>
+        <button class="pricing__btn">Select</button>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__links">
+        <a class="footer__items" href="#">Privacy</a>
+        <a class="footer__items" href="#">Terms</a>
+        <a class="footer__items" href="#">Contact</a>
+      </div>
+      <span class="footer__copyright">
+        &copy; Copyright 2022, Original Trombones
+      </span>
+    </div>
+  </footer>
 </body>
 </html>
